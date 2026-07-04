@@ -1,0 +1,70 @@
+# .project metadata for Podman Container Tools
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "podman-container-tools"
+name: "Podman Container Tools"
+description: "A set of tools providing full management of container lifecycle, including Podman, Buildah, and Skopeo,  which manage containers and images without requiring a daemon or root privileges."
+type: "project"
+project_lead: "benoitf" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#podman-container-tools"
+#     primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2025-01-21T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/338" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/containers/podman"
+
+website: "https://podman.io/"
+
+artwork: "https://landscape.cncf.io/logos/podman.svg"
+
+adopters:
+  path: "https://github.com/podman-container-tools/podman/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "podman-container-tools/podman"
+
+
+security:
+  policy:
+    path: "https://github.com/podman-container-tools/podman/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/podman-container-tools/podman/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/podman-container-tools/podman/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/podman-container-tools/podman/blob/main/CODE-OF-CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/podman-container-tools/podman/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/podman-container-tools/podman/blob/main/README.md"
+
+landscape:
+  category: "Runtime"
+  subcategory: "Container Runtime"
+
+# CLOMonitor Score: 81/100
+# Documentation: 97 | License: 75 | Best Practices: 68 | Security: 73

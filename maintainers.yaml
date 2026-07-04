@@ -1,0 +1,41 @@
+# Maintainer roster for Podman Container Tools
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+#  Maintainers: Please connect your GitHub handle to your LFID on openprofile.dev to enable automatic access to CNCF resources. The system will use your primary email address for setup.
+maintainers:
+  - project_id: "podman-container-tools"
+    org: "podman-container-tools"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - benoitf
+          - axel7083
+          - cdrage
+          - dgolovin
+          - ekidneyrh
+          - gastoner
+          - jeffmaury
+          - odockal
+          - feloy
+          - rujutashinde
+          - shipsing
+          - SoniaSandler
+          - slemeur
+          - deboer-tim
+          - cbr7
+          - vzhukovs
+          - baude
+          - ygalblum
+          - mohanboddu
+          - ashley-cui
+          - nalind
+          - mheon
+          - Luap99
+          - Honny1
+          - l0rd
+          - lsm5
+          - giuseppe
+          - actionmancan
+          - TomSweeneyRedHat
+          - mtrmac
