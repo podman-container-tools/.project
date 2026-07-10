@@ -1,3 +1,3 @@
 # CODEOWNERS for .project metadata repository
 # Changes to project metadata require maintainer review.
-* @benoitf @axel7083 @cdrage @dgolovin @ekidneyrh @gastoner @jeffmaury @odockal @feloy @rujutashinde @shipsing @SoniaSandler @slemeur @deboer-tim @cbr7 @vzhukovs @baude @ygalblum @mohanboddu @ashley-cui @nalind @mheon @Luap99 @Honny1 @l0rd @lsm5 @giuseppe @actionmancan @TomSweeneyRedHat @mtrmac 
+* @baude @ygalblum @mohanboddu @ashley-cui @nalind @mheon @Luap99 @Honny1 @l0rd @lsm5 @giuseppe @actionmancan @TomSweeneyRedHat @mtrmac
