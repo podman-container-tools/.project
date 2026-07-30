@@ -1,41 +1,38 @@
 # .project metadata for Podman Container Tools
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Set slack_channels
-# TODO: Set identity_type under legal (has_dco, has_cla)
-# TODO: Add package_managers if distributed via registries
-
 schema_version: "1.0.0"
 slug: "podman-container-tools"
 name: "Podman Container Tools"
-description: "A set of tools providing full management of container lifecycle, including Podman, Buildah, and Skopeo,  which manage containers and images without requiring a daemon or root privileges."
+description: "A set of tools providing full management of container lifecycle, including Podman, Buildah, and Skopeo, which manage containers and images without requiring a daemon or root privileges."
 type: "project"
-project_lead: "benoitf" # TODO: AUTO-DETECTED — please verify
-# TODO: Set CNCF Slack channel(s)
-# slack_channels:
-#   - name: "#podman-container-tools"
-#     primary: true
+project_lead: "podman-container-tools/core-maintainers"
 
 maturity_log:
   - phase: "sandbox"
     date: "2025-01-21T00:00:00Z"
-    issue: "https://github.com/cncf/sandbox/issues/338" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/sandbox/issues/338"
 
 repositories:
-  - "https://github.com/containers/podman"
+  - "https://github.com/podman-container-tools/podman"
 
 website: "https://podman.io/"
 
-artwork: "https://landscape.cncf.io/logos/podman.svg"
+artwork: "https://raw.githubusercontent.com/podman-container-tools/podman/refs/heads/main/logo/podman-logo-source.svg"
 
 adopters:
   path: "https://github.com/podman-container-tools/podman/blob/main/ADOPTERS.md"
 
-
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "podman-container-tools/podman"
-
+package_managers:
+  # Image build repository: https://github.com/podman-container-tools/image_build
+  quay:
+    - "quay.io/podman/stable"
+    - "quay.io/containers/podman"
+    - "quay.io/buildah/stable"
+    - "quay.io/containers/buildah"
+    - "quay.io/skopeo/stable"
+    - "quay.io/containers/skopeo"
+    - "quay.io/containers/aio"
 
 security:
   policy:
