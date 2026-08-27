@@ -15,6 +15,12 @@ maturity_log:
 
 repositories:
   - "https://github.com/podman-container-tools/podman"
+  - "https://github.com/podman-container-tools/buildah"
+  - "https://github.com/podman-container-tools/skopeo"
+  - "https://github.com/podman-container-tools/container-libs"
+  - "https://github.com/podman-container-tools/podman-machine-os"
+  - "https://github.com/podman-container-tools/image_build"
+  - "https://github.com/podman-container-tools/automation"
 
 website: "https://podman.io/"
 
@@ -36,15 +42,16 @@ package_managers:
 
 security:
   policy:
-    path: "https://github.com/podman-container-tools/podman/blob/main/SECURITY.md"
+    path: "https://github.com/podman-container-tools/community/blob/main/SECURITY.md"
   contact:
     advisory_url: "https://github.com/podman-container-tools/podman/security/advisories/new"
+    email: "security@lists.podman.io"
 
 governance:
   contributing:
-    path: "https://github.com/podman-container-tools/podman/blob/main/CONTRIBUTING.md"
+    path: "https://github.com/podman-container-tools/community/blob/main/CONTRIBUTING.md"
   code_of_conduct:
-    path: "https://github.com/podman-container-tools/podman/blob/main/CODE-OF-CONDUCT.md"
+    path: "https://github.com/podman-container-tools/community/blob/main/CODE-OF-CONDUCT.md"
 
 legal:
   license:
