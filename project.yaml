@@ -24,7 +24,7 @@ repositories:
 
 website: "https://podman.io/"
 
-artwork: "https://raw.githubusercontent.com/podman-container-tools/podman/refs/heads/main/logo/podman-logo-source.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/podman-container-tools"
 
 adopters:
   path: "https://github.com/podman-container-tools/podman/blob/main/ADOPTERS.md"
